@@ -1,0 +1,33 @@
+
+
+<wicket:panel>
+<span align="right" wicket:id="titulo">11111</span>
+     Lista of pessoa <select wicket:id="pessoa"></select> <br/>	
+	<br/>
+    <form wicket:id="form">
+    <h1><span wicket:id="mensagem">11111</span></h1>
+          <table>
+                <tr>
+                    <th>Nome</th>
+                    <td><input type="text" wicket:id="nome" /><br/></td>
+                </tr>
+                 <tr>
+                    <th>Cpf</th>
+                    <td><input type="text" wicket:id="cpf"  size="12" maxlength="11"/><br/></td>
+                </tr>
+                 <tr>
+                    <th>data</th>
+                    <td><input type="text" wicket:id="data"/><br/></td>
+                </tr>
+                 <tr>
+                    <th>curriculo</th>
+                    <td><textarea wicket:id="curriculo"  rows="10" cols="90" /><br/></td>
+                </tr>
+                
+                <tr>
+                    <td colspan="2"><input type="submit" value="Save" wicket:id="save"/></td>
+                </tr>
+            </table>
+       
+    </form>
+</wicket:panel>
